@@ -4,11 +4,13 @@ This is a simple command line program for managing inventory, written in C. I us
 
 ## Compile and execute
 
+To compile the program run:
+
 ```bash
 gcc main.c inventory.c -o main
 ```
 
-## To execute this program use:
+To execute the program use:
 
 ```bash
 ./main
@@ -16,20 +18,8 @@ gcc main.c inventory.c -o main
 
 # Commands
 
-Add a new item to the inventory:
+- `add <name> <quantity> <price>`: Adds a new item to the inventory.
 
-```bash
-add <name> <quantity> <price>
-```
+- `list`: Lists all items in the inventory.
 
-List all items in the inventory:
-
-```bash
-list
-```
-
-Exit the program:
-
-```
-exit
-```
+- `exit`: Exits the program.
